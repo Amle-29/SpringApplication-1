@@ -4,37 +4,37 @@ import jakarta.persistence.*;
 import lombok.*;
 
 @Entity
-@Table(name = "users")
+@Table(name = "customer")
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
 public class User {
-        @Id
-        @GeneratedValue(strategy = GenerationType.IDENTITY)
-        private Long id;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long customerId;
 
-        @Column(nullable = false)
-        private String name;
+    @Column(nullable = false)
+    private String customerName;
 
-        @Column(nullable = false, unique = true)
-        private String email;
+    @Column(nullable = false, unique = true)
+    private String customerEmail;
 
 
-        public void setName(String name) {
-                this.name = name;
-        }
+    public void setName(String customerName) {
+        this.customerName = customerName;
+    }
 
-        public void setEmail(String email) {
-                this.email = email;
-        }
+    public void setEmail(String customerEmail) {
+        this.customerEmail = customerEmail;
+    }
 
-        public String getName() {
-                return name;
-        }
+    public String getName() {
+        return customerName;
+    }
 
-        public String getEmail() {
-                return email;
-        }
+    public String getEmail() {
+        return customerEmail;
+    }
 }

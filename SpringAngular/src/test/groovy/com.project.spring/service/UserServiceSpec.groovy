@@ -1,4 +1,3 @@
-
 package com.project.spring.service
 
 import spock.lang.Specification
