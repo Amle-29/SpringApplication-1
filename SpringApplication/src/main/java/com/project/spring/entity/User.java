@@ -22,19 +22,4 @@ public class User {
     private String customerEmail;
 
 
-    public void setName(String customerName) {
-        this.customerName = customerName;
-    }
-
-    public void setEmail(String customerEmail) {
-        this.customerEmail = customerEmail;
-    }
-
-    public String getName() {
-        return customerName;
-    }
-
-    public String getEmail() {
-        return customerEmail;
-    }
 }

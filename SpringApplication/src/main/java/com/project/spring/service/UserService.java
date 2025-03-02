@@ -34,8 +34,8 @@ public class UserService {
         User user = userRepository.findById(customerId)
                 .orElseThrow(() -> new ResourceNotFoundException("User not found with ID: " + customerId));
 
-        user.setName(userDetails.getName());
-        user.setEmail(userDetails.getEmail());
+        user.setCustomerName(userDetails.getCustomerName());
+        user.setCustomerEmail(userDetails.getCustomerEmail());
 
         return userRepository.save(user);
     }

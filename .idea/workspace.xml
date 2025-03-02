@@ -5,14 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e41190a6-7d43-42f9-8a74-1c86deeef510" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/SpringApplication/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringAngular/src/main/java/com/project/spring/SpringAngularApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAngular/src/main/java/com/project/spring/SpringApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringAngular/src/main/java/com/project/spring/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAngular/src/main/java/com/project/spring/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringAngular/src/main/java/com/project/spring/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAngular/src/main/java/com/project/spring/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringAngular/src/main/java/com/project/spring/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAngular/src/main/java/com/project/spring/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringAngular/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAngular/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringAngular/src/test/groovy/com.project.spring/service/UserServiceSpec.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAngular/src/test/groovy/com.project.spring/service/UserServiceSpec.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringAngular/src/test/java/com/project/spring/SpringAngularApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAngular/src/test/java/com/project/spring/SpringApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAngular/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/SpringApplication/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAngular/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/SpringApplication/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAngular/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/SpringApplication/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAngular/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/SpringApplication/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAngular/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/SpringApplication/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAngular/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAngular/src/main/java/com/project/spring/SpringApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringApplication/src/main/java/com/project/spring/SpringApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAngular/src/main/java/com/project/spring/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringApplication/src/main/java/com/project/spring/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAngular/src/main/java/com/project/spring/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringApplication/src/main/java/com/project/spring/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAngular/src/main/java/com/project/spring/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringApplication/src/main/java/com/project/spring/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAngular/src/main/java/com/project/spring/exception/ResourceNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringApplication/src/main/java/com/project/spring/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAngular/src/main/java/com/project/spring/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringApplication/src/main/java/com/project/spring/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAngular/src/main/java/com/project/spring/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringApplication/src/main/java/com/project/spring/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAngular/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/SpringApplication/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAngular/src/test/groovy/com.project.spring/service/UserServiceSpec.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/SpringApplication/src/test/groovy/com.project.spring/service/UserServiceSpec.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAngular/src/test/java/com/project/spring/SpringApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringApplication/src/test/java/com/project/spring/SpringApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +78,7 @@
     "LombokPluginIS_LOMBOK_JPS_FIX_ENABLED": "true",
     "LombokPluginIS_LOMBOK_VERSION_CHECK_Enabled": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Amle/Downloads/SpringApplication/SpringAngular/src/main/java",
+    "last_opened_file_path": "C:/Users/Amle/Downloads/SpringApplication",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -72,6 +87,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Amle\Downloads\SpringApplication" />
       <recent name="C:\Users\Amle\Downloads\SpringApplication\SpringAngular\src\main\java" />
     </key>
   </component>
@@ -91,7 +107,6 @@
     </configuration>
     <configuration name="SpringApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.project.spring.SpringApplication" />
-      <module name="SpringAngular" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.project.spring.*" />
@@ -140,12 +155,12 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/SpringAngular/src/main/java/com/project/spring/repository/UserRepository.java</url>
+          <url>file://$PROJECT_DIR$/SpringApplication/src/main/java/com/project/spring/repository/UserRepository.java</url>
           <line>6</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/SpringAngular/src/main/java/com/project/spring/SpringApplication.java</url>
+          <url>file://$PROJECT_DIR$/SpringApplication/src/main/java/com/project/spring/SpringApplication.java</url>
           <line>5</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>

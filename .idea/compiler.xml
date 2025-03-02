@@ -15,13 +15,19 @@
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
         </processorPath>
-        <module name="SpringAngular" />
+        <module name="SpringAngular (2)" />
+        <module name="SpringAngular (1)" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="SpringAngular" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="SpringAngular" options="-parameters" />
+      <module name="SpringAngular (1)" options="-parameters" />
+      <module name="SpringAngular (2)" options="-parameters" />
     </option>
   </component>
 </project>
