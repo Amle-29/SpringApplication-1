@@ -20,7 +20,7 @@ public class GlobalExceptionHandler {
         errorResponse.put("status", HttpStatus.NOT_FOUND.value());
         return ResponseEntity.status(HttpStatus.NOT_FOUND).body(errorResponse);
     }
-
+/*
     @ExceptionHandler(Exception.class)
     public ResponseEntity<Map<String, Object>> handleGenericException(Exception ex) {
         Map<String, Object> errorResponse = new HashMap<>();
@@ -28,5 +28,5 @@ public class GlobalExceptionHandler {
         errorResponse.put("message", "An unexpected error occurred.");
         errorResponse.put("status", HttpStatus.INTERNAL_SERVER_ERROR.value());
         return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(errorResponse);
-    }
+  } */
 }
